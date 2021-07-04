@@ -5,7 +5,7 @@ public class JavaPrimalityTestProblems {
 
         try (Scanner scanner = new Scanner(System.in);)
         {
-            System.out.println(scanner.nextBigInteger().isProbablePrime(100) ? "prime" : "not prime");
+            System.out.println(scanner.nextBigInteger().isProbablePrime(1) ? "prime" : "not prime");
         }
     }
 
